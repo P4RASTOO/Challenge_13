@@ -9,14 +9,11 @@ The dataset contained information about more than 34,000 organizations that rece
 
 ## Stages of the Machine Learning Process:
 1) Data Preprocessing: The dataset was loaded, and categorical variables were encoded using techniques like one-hot encoding. The features were scaled using standardization to ensure uniformity in model training.
-Model Selection: Various machine learning models were considered, including Decision Trees, Random Forests, and Neural Networks. Models were selected based on their suitability for binary classification tasks and their potential to capture complex relationships in the data.
-
-2) Feature Importance Analysis: For Random Forests, feature importance analysis was performed to identify the most influential features in predicting success. This helped in feature selection and provided insights into which variables were most relevant for the prediction task.
-Hyperparameter Tuning: Grid search was employed to optimize hyperparameters for the neural network model. Different combinations of hyperparameters were tested to find the best configuration that maximized model performance.
-
-3) Model Evaluation: Each model's performance was evaluated using evaluation metrics such as accuracy, loss, and possibly other relevant metrics. The models were trained on the training dataset and then evaluated on the separate testing dataset to assess their ability to generalize to new, unseen data.
-
-4) Results and Comparison: The results of all models, including the original and alternate neural network models, were compiled and compared. The evaluation metrics provided insights into how well the models performed in predicting successful businesses.
+2) Model Selection: Various machine learning models were considered, including Decision Trees, Random Forests, and Neural Networks. Models were selected based on their suitability for binary classification tasks and their potential to capture complex relationships in the data.
+3) Feature Importance Analysis: For Random Forests, feature importance analysis was performed to identify the most influential features in predicting success. This helped in feature selection and provided insights into which variables were most relevant for the prediction task.
+4) Hyperparameter Tuning: Grid search was employed to optimize hyperparameters for the neural network model. Different combinations of hyperparameters were tested to find the best configuration that maximized model performance.
+5) Model Evaluation: Each model's performance was evaluated using evaluation metrics such as accuracy, loss, and possibly other relevant metrics. The models were trained on the training dataset and then evaluated on the separate testing dataset to assess their ability to generalize to new, unseen data.
+6) Results and Comparison: The results of all models, including the original and alternate neural network models, were compiled and compared. The evaluation metrics provided insights into how well the models performed in predicting successful businesses.
 
 ## Methods Used:
 In this analysis, various machine learning methods were utilized, including:
