@@ -9,14 +9,12 @@ The dataset contained information about more than 34,000 organizations that rece
 
 ## Stages of the Machine Learning Process:
 1) Data Preprocessing: The dataset was loaded, and categorical variables were encoded using techniques like one-hot encoding. The features were scaled using standardization to ensure uniformity in model training.
-2) Model Selection: Various machine learning models were considered, including Decision Trees, Random Forests, and Neural Networks. Models were selected based on their suitability for binary classification tasks and their potential to capture complex relationships in the data.
-3) Feature Importance Analysis: For Random Forests, feature importance analysis was performed to identify the most influential features in predicting success. This helped in feature selection and provided insights into which variables were most relevant for the prediction task.
-4) Hyperparameter Tuning: Grid search was employed to optimize hyperparameters for the neural network model. Different combinations of hyperparameters were tested to find the best configuration that maximized model performance.
-5) Model Evaluation: Each model's performance was evaluated using evaluation metrics such as accuracy, loss, and possibly other relevant metrics. The models were trained on the training dataset and then evaluated on the separate testing dataset to assess their ability to generalize to new, unseen data.
+2) Model Selection: The machine learning model that was used is Neural Networks. Model was selected based on its suitability for binary classification tasks and its potential to capture complex relationships in the data.
+3) Model Evaluation: Each model's performance was evaluated using evaluation metrics such as accuracy, loss, and possibly other relevant metrics. The models were trained on the training dataset and then evaluated on the separate testing dataset to assess their ability to generalize to new, unseen data.
 6) Results and Comparison: The results of all models, including the original and alternate neural network models, were compiled and compared. The evaluation metrics provided insights into how well the models performed in predicting successful businesses.
 
 ## Methods Used:
-In this analysis, various machine learning methods were utilized, including:
+In this analysis, the main machine learning method that was used is:
 
 Neural Networks: Employed for their capacity to capture intricate patterns in the data. Hyperparameter tuning and feature selection were performed to optimize neural network performance.
 
@@ -26,22 +24,22 @@ Overall, the analysis aimed to develop accurate predictive models that can assis
 Summary of the results of the machine learning models and a recommendation based on their performance:
 ### Original Model:
 
-* Loss: 0.552234
-* Accuracy: 0.732945
+* Loss: 0.5505
+* Accuracy: 0.7311
   
 The original model is a neural network with a relatively simple architecture. While it has a moderate accuracy of approximately 73.3%, its loss is relatively high compared to the alternate models. This might suggest that the model struggles to generalize well to the data, possibly due to its simplicity.
 
 ### Alternate Model 1:
 
-* Loss: 0.186438
-* Accuracy: 0.731895
+* Loss: 0.1851
+* Accuracy: 0.7311
   
 Alternate Model 1 is another neural network with a different architecture. It has a significantly lower loss compared to the original model and a similar accuracy. The lower loss indicates that this model better fits the training data and likely performs better on unseen data. However, the relatively modest accuracy suggests that there might be room for improvement.
 
 ### Alternate Model 2:
 
-* Loss: 0.557254
-* Accuracy: 0.731429
+* Loss: 0.5585
+* Accuracy: 0.7301
   
 Alternate Model 2 is a more complex neural network with additional dropout layers. While it has a higher loss and similar accuracy compared to the original model, the increased complexity of the architecture may contribute to overfitting.
 
