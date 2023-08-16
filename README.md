@@ -1,7 +1,7 @@
 <img width="760" alt="Screenshot 2023-08-15 at 1 11 47 AM" src="https://github.com/P4RASTOO/Challenge_13/assets/132952512/6adf6def-d456-4a9a-a833-2b079ca9383f">
 
 # Challenge_13 Report
-## Overview of the Analysis
+## Overview of the Analysis:
 The purpose of this analysis was to develop and evaluate machine learning models for predicting the success of funding applications received by Alphabet Soup, a venture capital firm. The goal was to create a predictive model that assists in determining whether startups would become successful businesses if funded by Alphabet Soup.
 
 Financial Information and Prediction Target:
@@ -20,26 +20,26 @@ Neural Networks: Employed for their capacity to capture intricate patterns in th
 
 Overall, the analysis aimed to develop accurate predictive models that can assist Alphabet Soup in making informed decisions about funding applications, ultimately contributing to the success of startups.
 
-## Summary
+## Summary:
 Summary of the results of the machine learning models and a recommendation based on their performance:
 ### Original Model:
 
-* Loss: 0.5505
-* Accuracy: 0.7311
+* Loss: 0.55426
+* Accuracy: 0.73049
   
 The original model is a neural network with a relatively simple architecture. While it has a moderate accuracy of approximately 73.3%, its loss is relatively high compared to the alternate models. This might suggest that the model struggles to generalize well to the data, possibly due to its simplicity.
 
 ### Alternate Model 1:
 
-* Loss: 0.1851
-* Accuracy: 0.7311
+* Loss: 0.18580
+* Accuracy: 0.73049
   
 Alternate Model 1 is another neural network with a different architecture. It has a significantly lower loss compared to the original model and a similar accuracy. The lower loss indicates that this model better fits the training data and likely performs better on unseen data. However, the relatively modest accuracy suggests that there might be room for improvement.
 
 ### Alternate Model 2:
 
-* Loss: 0.5585
-* Accuracy: 0.7301
+* Loss: 0.55585
+* Accuracy: 0.72967
   
 Alternate Model 2 is a more complex neural network with additional dropout layers. While it has a higher loss and similar accuracy compared to the original model, the increased complexity of the architecture may contribute to overfitting.
 
